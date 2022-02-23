@@ -1,0 +1,49 @@
+.inner-game-container {
+  flex: 1;
+
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game-over,
+.timer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.game-over,
+.earnings-resume {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.earnings-resume {
+  color: white;
+}
+
+.timer-circle {
+  background-color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over {
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}

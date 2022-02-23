@@ -1,0 +1,33 @@
+.question-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question,
+.options-block__option {
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.options-block {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.options-block__option {
+  margin: 1rem 2rem;
+  width: 150px;
+}
+
+.correct {
+  background-color: greenyellow;
+}
+
+.incorrect {
+  background-color: red;
+}
